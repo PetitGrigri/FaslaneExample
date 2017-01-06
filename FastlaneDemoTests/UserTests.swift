@@ -17,6 +17,7 @@ class UserTests: XCTestCase {
         XCTAssertEqual(u.password, "azertyuiop")
     }
 
+    
     func testUserDescription() {
         let u = User(login: "jean", password: "dshbfggdqs")
         XCTAssertEqual(u.description, "[User jean dshbfggdqs]")
